@@ -53,7 +53,7 @@ footer img {
     transition: duration linear;
   }
   #nosotros{
-    background-image:url('../img/fondo.jpg'); ;
+    background-image:url('../img/comercio2.jpg'); ;
   }
   #justificar{
     text-align: justify;
@@ -97,7 +97,7 @@ footer img {
   text-align: left; 
 }
  */
-
+/*  se utiliza para el texto en la pagina de inicio */
 .image-container {
   position: relative;
   width: 100%; /* Ajusta el ancho según necesites */
