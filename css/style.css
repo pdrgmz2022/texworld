@@ -1,0 +1,109 @@
+
+.logo-text {
+    margin: 0;/* es el titulo de la empresa*/
+    color: blue;
+}
+
+ #logoheader{
+    width: 90px;
+    height: auto;
+    margin-left: 10px;
+    text-align:center ;
+    align-items: left;
+} 
+#logofooter{
+    width: 90px;
+    height: auto;
+    margin-left: 10px; 
+    text-align:left ;
+    align-items: left;
+} 
+
+
+
+.social-icon {
+    width: 40px; /* Ajusta el tamaño de los iconos de redes sociales según sea necesario */
+    height: auto;
+    
+}
+header img {
+    border-radius: 50%;
+    /* width: 70px;
+    height: 70px;
+    margin-left: 15px;  */
+   
+} 
+footer img {
+   
+    /* width: 70px;
+    height: 70px; 
+    margin-left: 15px;  */
+    border-radius: 50%;
+   
+} 
+#contact{
+    background-image: url('../img/fondo4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.carousel-item {
+    /* transition: opacity 0.6s ease-in-out; */
+    transition: duration linear;
+  }
+  #nosotros{
+    background-image:url('../img/fondo.jpg'); ;
+  }
+  #justificar{
+    text-align: justify;
+  }
+  #textofooter{
+    color: brown;
+  }
+
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.whatsapp-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.custom-height {
+  height: 900px; /* Ajusta el alto deseado de la imagen del carrousel*/
+  object-fit: cover; /* Asegura que la imagen se adapte sin deformarse */
+}
+
+.card-img-top2 {
+  height: 600px; /* Fija la altura de las imágenes de las cards*/
+  object-fit: cover; /* Escala la imagen para que se ajuste sin deformarse */
+}
+
+
+/* 
+.overlay-text {
+  position: absolute;
+  top: 50%;  Centrar verticalmente 
+  left: 50%;  Centrar horizontalmente 
+  transform: translate(-50%, -50%);  Ajustar al centro 
+  color: rgb(8, 8, 8); /* Texto negro 
+  background-color: rgba(86, 190, 250, 0.5); Fondo semitransparente 
+  padding: 10px 20px; /* Espaciado interno 
+  border-radius: 5px; /* Bordes redondeados 
+  text-align: left; 
+}
+ */
+
+.image-container {
+  position: relative;
+  width: 100%; /* Ajusta el ancho según necesites */
+}
+.text-overlay {
+  position: absolute;
+  color: rgb(5, 131, 22);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Sombra para mejor visibilidad */
+}
