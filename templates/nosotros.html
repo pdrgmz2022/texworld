@@ -1,0 +1,216 @@
+
+<!doctype html>
+    <html lang="en">
+        <head>
+            <title>TEXWORLD</title>
+            <link rel="icon" href="../static/img/LogoTEXWORLD.PNG">
+            <!-- Required meta tags -->
+            <meta charset="utf-8" />
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            />
+    
+            <!-- Bootstrap CSS v5.2.1 -->
+            
+    
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    
+            <link
+                href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+                rel="stylesheet"
+                integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+                crossorigin="anonymous"
+            />
+            <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+            <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+            <script src="./static/js/script.js"></script>
+        </head>
+        <!-- -comienzo del body -->
+        <body>
+            
+            <header class="bg-black text-light  sticky-top col-12 col-md-12 text-center">
+                <div class="">
+                    <div class="row align-items-center">
+                        <div class="col-md-1">
+                          <a href="index.html">
+                            <img src="../static/img/LogoTEXWORLD.png" alt="Logo de la Empresa" class="img-fluid animate__animated animate__rotateIn" id="logoheader">
+                          </a>
+                          </div>
+                        <div class="col-md-5">
+                            <h1 class="logo-text fs-1 text-center"id="textofooter">TEXWORLD</h1>
+                            <h1 class="logo-text fs-5 text-left">DESPACHO ADUANERO Y COMERCIO INTERNACIONAL</h1>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Navegación y cuadro de búsqueda -->
+                            <nav class="navbar  navbar-expand-lg navbar-dark ">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="../index.html">Inicio</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="../templates/servicios.html">Servicios</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="../templates/nosotros.html">Nosotros</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                          <a class="nav-link" href="../templates/ubicacion.html">Ubicacion</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="../templates/contacto.html">Contacto</a>
+                                        </li>
+                                        <!-- Agrega más elementos del menú según sea necesario -->
+                                    </ul> 
+                                    <form class="form-inline my-2 my-lg-0">
+                                        <input class="form-control mr-sm-2 m-4" type="search" placeholder="Buscar" aria-label="Search" id="valor">
+                                        
+                                    </form>
+                                    <button class="btn btn-outline-light my-2 my-sm-0 m-5" type="button" onclick="buscar()">Buscar</button>
+                                    
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--fin del header -->
+          
+      
+        <main class="mt-5" id="nosotros">
+            
+            <br>
+            <br>
+            <h5 class="card-title text-center fs-1 text-danger" >Sobre Nosotros</h5>
+            <br>
+            <br>
+            
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <img src="../static/img/infor2.png" class="card-img-top mx-auto w-100 " alt="Imagen 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Venta y reparacion de productos informáticos</h5>
+                                <p class="card-text " id="justificar">Bienvenido a nuestro sitio especializado , somos una empresa dedicada a la venta de productos informaticos y electronicos , como asi tambien al armado y  reparacion de PC, donde la precisión y la eficiencia se encuentran en cada segundo. En nuestro compromiso con la calidad, ofrecemos soluciones innovadoras para satisfacer tus necesidades informaticas</p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-md-4">
+                        <div class="card text-center ">
+                            <img src="../static/img/persona1.jpg" class="card-img-top mx-auto  w-50 rounded-circle" alt="Imagen 2">
+                            <div class="card-body">
+                                <h5 class="card-title fs-5"> <span  style="color: blue";>Pedro E. Gómez - Ingeniero en Informática</span></h5>
+                                <p class="card-text " id="justificar">Somos una empresa dedicada al mantenimiento, instalacion de software y sistemas operativos, limpieza e instalacion de antivirus,  como asi tambien a la reparacion y soporte de los mismos , mantenimiento y reemplazo de componentes, venta de productos electronicos. </p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-md-4">
+                        <div class="card text-center ">
+                            <img src="../static/img/disco1.jpg" class="card-img-top mx-auto w-100" alt="Imagen 3">
+                            <div class="card-body ">
+                                <h5 class="card-title">Reemplazo de discos y memorias</h5>
+                                <p class="card-text " id="justificar"> Nos enorgullece ofrecer servicios de atencion personalizada que se adapten a tus necesidades desarrollando soluciones innovadoras que cumplen con los más altos estándares de calidad.</
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+    
+        </main>
+
+        
+        <footer class="bg-black text-light ">
+                    <div class="">
+                        <div class="row ">
+                            
+                            <div class="col-md-2 d-flex align-items-center ">
+                                <a href="index.html" class="col-12 col-md-6 text-center "> 
+                                    <img src="../static/img/LogoTEXWORLD.PNG" alt="Logo de la Empresa" class="img-fluid animate__animated animate__rotateIn " id="logofooter">
+                                </a>
+                            </div>
+                            <div class="col-md-7 text-center">
+                                <!-- Datos de la empresa -->
+                                <h1 id="textofooter">TEXWORD</h1>
+                                <h5>DESPACHO ADUANERO Y COMERCIO INTERNACIONAL</h5>
+                                <p>Jean Jaures 1000 - Cuidad Autónoma de Buenos Aires</p>
+                        
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <!-- Acceso a redes sociales -->
+                                <p>Síguenos en las redes sociales :</p>
+                                    <ul class=" list-inline ">
+                        
+                                        <li class="list-inline-item fs-2">
+                                            <a href="mailto:carina_vera2022.hotmail.com?subject=Asunto%20del%20correo&body=Cuerpo%20del%20correo%20aquí">
+                                                <i class="fa-solid fa-envelope fa-1x"></i> 
+                                            </a>
+                                
+                                        </li>
+                                        <!-- <a href="mailto:carina_vera2022.hotmail.com?subject=Consulta&body=Hola,%20tengo%20una%20pregunta...">Contáctanos por correo</a> -->
+
+                            
+                                        <li class="list-inline-item fs-2">
+                                            <a href="https://www.facebook.com" target="_blank">
+                                                
+                                                <i class="fa-brands fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item fs-2">
+                                            <a href="https://twitter.com/" target="_blank">
+                                                
+                                                <i class="fa-brands fa-x-twitter"></i> 
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item fs-2">
+                                            <a href="https://www.instagram.com/" target="_blank">
+                                                
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+
+                                        <!--enlace a whatsapp-->
+                                        <div class="whatsapp-icon">
+                                          <a href="https://wa.me/1121777126" target="_blank" style="text-decoration: none;">
+                                              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                                          </a>
+                                      </div>
+
+
+
+                                        <!-- Agrega más iconos y enlaces según sea necesario -->
+                                    </ul>
+                        </div>
+                    </div>
+                
+                
+        </footer>
+<!-- Bootstrap JavaScript Libraries -->
+<script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+></script>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"
+></script>
+<script src="https://kit.fontawesome.com/3325e80655.js" crossorigin="anonymous"></script>
+
+
+        
+</body>
+</html>

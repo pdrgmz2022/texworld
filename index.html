@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>TEXWORLD</title>
+        <link rel="icon" href="./static/img/LogoTEXWORLD.png">
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+        <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <script src="./static/js/script.js"></script>
+    </head>
+    <!-----------------------------------------comienzo del body ---------------------------------------------------->
+    <body>
+         <!-------------------------------------comienzo del header ------------------------------------------------->
+        <header class="bg-black text-light  sticky-top col-12 col-md-12 text-center">
+            <div class="">
+                <div class="row align-items-center">
+                    <div class="col-md-1">
+                      <a href="index.html">
+                        <img src="./static/img/LogoTEXWORLD.png" alt="Logo de la Empresa" class="img-fluid animate__animated animate__rotateIn" id="logoheader">
+                      </a>
+                      </div>
+                    <div class="col-md-5">
+                        <h1 class="logo-text fs-1 text-center" id="textofooter">TEXWORLD</h1>
+                        <h1 class="logo-text fs-5 text-left">DESPACHO ADUANERO Y COMERCIO INTERNACIONAL</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Navegación y cuadro de búsqueda -->
+                        <nav class="navbar  navbar-expand-lg navbar-dark ">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="./templates/servicios.html">Servicios</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="./templates/nosotros.html">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                      <a class="nav-link" href="./templates/ubicacion.html">Ubicacion</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="./templates/contacto.html">Contacto</a>
+                                    </li>
+                                    <!-- Agrega más elementos del menú según sea necesario -->
+                                </ul> 
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2 m-4" type="search" placeholder="Buscar" aria-label="Search" id="valor">
+                                    
+                                </form>
+                                <button class="btn btn-outline-light my-2 my-sm-0 m-5" type="button" onclick="buscar()">Buscar</button>
+                                
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!----------------------------------------------------fin del header ------------------------------------------>
+          
+         
+         <!----------------------------------------------------comienzo del carrousel  -------------------------------------->
+        <main>
+
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                
+                <div class="carousel-inner mt-0">
+
+                  <div class="carousel-item custom-height active ">
+                    
+                    
+                    <div class="overlay-text">
+                        <h5>
+                          <ul>
+                            <li>Gestión aduanera</li>
+                            <li>Clasificación de productos</li>
+                            <li>Tratados de libre comercio</li>
+                            <li>Reducción de costos</li>
+                            <li>Mayor competitividad</li>
+                            <li>Regulaciones internacionales</li>
+
+                          </ul>
+                         
+                        </h5>
+                      </div> 
+                        
+                    <img src="./static/img/comercioHD1.webp" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+
+                  <div class="carousel-item custom-height">
+                    <img src="./static/img/contenedor.png" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5></h5>
+                        <p></p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item custom-height">
+                    <img src="./static/img/barco1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5></h5>
+                        <p></p>
+                    </div>
+                  </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              
+              <div class="container-fluid p-0 ">
+                <div class="overlay-text2 ">
+                  <h5>
+                    <ul>
+                      <li>Cotización de precios</li>
+                      <li>Instrumentos de pago internacional</li>
+                      <li>Mayor competitividad</li>
+                      <li>Cumplimiento normativo</li>
+                      <li>Consultoría en Comercio Exterior</li>
+                      <li>Regulaciones internacionales</li>
+
+                    </ul>
+                   
+                  </h5>
+                </div> 
+                <img src="./static/img/barco33.png" class="w-100 full-screen" alt="Imagen">
+                
+              </div>
+               
+
+
+               <div class="container-fluid p-0">
+               
+                <img src="./static/img/contenedor2.png" class="w-100 full-screen" alt="Imagen">
+              </div> 
+
+
+
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+
+
+
+
+
+              <DIV class="mt-0 text-center ">
+              <p class="fs-4  fw-bold">Contáctanos Hoy</P>
+               <P class="fs-5  fw-bold"> "¿Listo para expandir tu negocio al mercado global?</P>
+               <P class="fs-5  fw-bold"> En TEXWORLD, estamos aquí para guiarte en cada paso del proceso. 
+                Llámanos o escríbenos para recibir una consulta personalizada. ¡Hagamos crecer tu negocio más 
+                allá de las fronteras!"
+                </p>
+                
+              </DIV>
+
+
+
+
+
+
+
+              <div class="container-fluid p-0">
+                <div class="overlay-text3 ">
+                  <h5>
+                    <ul>
+                      <li>Experiencia comprobada</li>
+                      <li>Compromiso con la calidad</li>
+                      <li>Soluciones personalizadas</li>
+                      <li>Reducción de costos</li>
+                      <li>Mayor competitividad</li>
+                      <li>Regulaciones internacionales</li>
+
+                    </ul>
+                   
+                  </h5>
+                </div> 
+                <img src="./static/img/comercio44.png" class="w-100 full-screen" alt="Imagen">
+              </div>
+              
+              <!-----------------------------------------comienzo de los titulos de articulos -------------------------->
+              
+            <div class="mt-0 text-center ">
+                <p class="fs-4 bg-info  fw-bold" >NUESTROS SERVICIOS</p>
+               
+                
+            </div>
+            <!-------------------------------------------comienzo del primer grupo de cards ---------------------------->
+            <div class="row row-cols-1 row-cols-md-3 g-1">
+              <div class="col">
+               
+                <div class="card h-100">
+                  
+                  <img src="./static/img/barco2.webp" class="card-img-top2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Gestión de Importaciones y Exportaciones:</h5>
+                    <p class="card-text" id="justificar">Nos encargamos de todo, desde la planificación hasta la entrega.
+                      Investigación de Mercados: Identificamos proveedores y clientes potenciales, analizamos la demanda y evaluamos la competencia.
+                      Selección de productos: Elegimos bienes o servicios con alto potencial de aceptación y rentabilidad en los mercados destino.
+                      Estudio de regulaciones: Revisamos normativas aduaneras, restricciones, cuotas de importación/exportación y tratados comerciales vigentes.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Ultima actualizacion hace 3 minutos</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./static/img/comercio4.jpg" class="card-img-top2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Logística Internacional</h5>
+                    <p class="card-text" id="justificar">Coordinamos transporte terrestre, marítimo y aéreo para tus productos.
+                      Los agentes están familiarizados con las leyes y normas aduaneras, aranceles, tratados comerciales y requisitos específicos de cada país.
+                      Garantizan que los productos cumplan con las regulaciones locales, evitando sanciones o demoras.
+                      Minimizan riesgos de multas o cargos adicionales debido a errores en la documentación o incumplimientos.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Ultima actualizacion hace 3 minutos</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./static/img/comercio5.png" class="card-img-top2 " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Despacho Aduanero</h5>
+                    <p class="card-text" id="justificar">Agilizamos el cumplimiento de requisitos legales y normativos.
+                      Nuestros agentes están familiarizados con las leyes y normas aduaneras, aranceles, tratados comerciales y requisitos específicos de cada país.
+                      Manejan documentos complejos como facturas comerciales, certificados de origen y permisos de importación/exportación.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Ultima actualizacion hace 3 minutos</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+
+
+        </main>
+        <!---------------------------------------------comienzo del footer --------------------------------------------->
+        <footer class="bg-black text-light ">
+                    <div class="">
+                        <div class="row ">
+                            
+                            <div class="col-md-2 d-flex align-items-center ">
+                                <a href="index.html" class="col-12 col-md-6 text-center "> 
+                                    <img src="./static/img/LogoTEXWORLD.PNG" alt="Logo de la Empresa" class="img-fluid animate__animated animate__rotateIn " id="logofooter">
+                                </a>
+                            </div>
+                            <div class="col-md-7 text-center">
+                                <!-- Datos de la empresa -->
+                                <h1 id="textofooter">TEXWORD</h1>
+                                <h5>DESPACHO ADUANERO Y COMERCIO INTERNACIONAL</h5>
+                                <p>Jean Jaures 1000 - Cuidad Autónoma de Buenos Aires</p>
+                        
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <!-- Acceso a redes sociales -->
+                                <p>Síguenos en las redes sociales :</p>
+                                    <ul class=" list-inline ">
+                        
+                                        <li class="list-inline-item fs-2">
+                                            <a href="mailto:carina_vera2022.hotmail.com?subject=Asunto%20del%20correo&body=Cuerpo%20del%20correo%20aquí">
+                                                <i class="fa-solid fa-envelope fa-1x"></i> 
+                                            </a>
+                                
+                                        </li>
+                                        <!-- <a href="mailto:carina_vera2022.hotmail.com?subject=Consulta&body=Hola,%20tengo%20una%20pregunta...">Contáctanos por correo</a> -->
+
+                            
+                                        <li class="list-inline-item fs-2">
+                                            <a href="https://www.facebook.com" target="_blank">
+                                                
+                                                <i class="fa-brands fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item fs-2">
+                                            <a href="https://twitter.com/" target="_blank">
+                                                
+                                                <i class="fa-brands fa-x-twitter"></i> 
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item fs-2">
+                                            <a href="https://www.instagram.com/" target="_blank">
+                                                
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+
+                                        <!--------------------enlace a whatsap --------------------------------------------->
+                                        <div class="whatsapp-icon">
+                                          <a href="https://wa.me/1121777126" target="_blank" style="text-decoration: none;">
+                                              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                                          </a>
+                                      </div>
+
+
+
+                                        <!-- Agrega más iconos y enlaces según sea necesario -->
+                                    </ul>
+                        </div>
+                    </div>
+                
+                
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://kit.fontawesome.com/3325e80655.js" crossorigin="anonymous"></script>
+    </body>
+</html>
