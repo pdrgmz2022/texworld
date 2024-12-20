@@ -84,39 +84,26 @@ footer img {
 }
 
 
-
+/* 
 .overlay-text {
   position: absolute;
-  top: 50%; /* Centrar verticalmente */
-  left: 50%; /* Centrar horizontalmente */
-  transform: translate(-50%, -50%); /* Ajustar al centro */
-  color: rgb(8, 8, 8); /* Texto negro */
-  background-color: rgba(86, 190, 250, 0.5); /* Fondo semitransparente */
-  padding: 10px 20px; /* Espaciado interno */
-  border-radius: 5px; /* Bordes redondeados */
-  text-align: left;
+  top: 50%;  Centrar verticalmente 
+  left: 50%;  Centrar horizontalmente 
+  transform: translate(-50%, -50%);  Ajustar al centro 
+  color: rgb(8, 8, 8); /* Texto negro 
+  background-color: rgba(86, 190, 250, 0.5); Fondo semitransparente 
+  padding: 10px 20px; /* Espaciado interno 
+  border-radius: 5px; /* Bordes redondeados 
+  text-align: left; 
 }
+ */
 
-.overlay-text2 {
-  position: absolute;
-  top: 25%; /* Centrar verticalmente */
-  left: 90%; /* Centrar horizontalmente */
-  transform: translate(-50%, -50%); /* Ajustar al centro */
-  color: rgb(8, 8, 8); /* Texto negro */
-  background-color: rgba(86, 190, 250, 0.5); /* Fondo semitransparente */
-  padding: 10px 20px; /* Espaciado interno */
-  border-radius: 5px; /* Bordes redondeados */
-  text-align: left;
+.image-container {
+  position: relative;
+  width: 100%; /* Ajusta el ancho según necesites */
 }
-
-.overlay-text3{
+.text-overlay {
   position: absolute;
-  top: 40%; /* Centrar verticalmente */
-  left: 15%; /* Centrar horizontalmente */
-  transform: translate(-50%, -50%); /* Ajustar al centro */
-  color: rgb(8, 8, 8); /* Texto negro */
-  background-color: rgba(86, 190, 250, 0.5); /* Fondo semitransparente */
-  padding: 10px 20px; /* Espaciado interno */
-  border-radius: 5px; /* Bordes redondeados */
-  text-align: left;
+  color: rgb(5, 131, 22);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Sombra para mejor visibilidad */
 }
