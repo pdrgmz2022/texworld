@@ -128,7 +128,7 @@ footer img {
 
 /*  se utiliza para el texto en la pagina de nosotros */
 .text-overlay3 {
-  right: 0; /* Alinear a la derecha */
+  left:50; /* Alinear a la derecha */
   top: 20%; /* Centrar verticalmente */
   transform: translateY(50%); /* Ajustar posición al centro exacto */
   transform: translateX(50%); /* Ajustar posición al centro exacto */
@@ -136,4 +136,11 @@ footer img {
   background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente para contraste */
   padding: 1rem;
   border-radius: 0.5rem; /* Esquinas redondeadas */
+}
+
+.propiedades{
+  width: 600px;
+  font-size: medium;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
 }
