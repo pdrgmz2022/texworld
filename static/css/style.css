@@ -107,15 +107,29 @@ footer img {
   color: rgb(5, 131, 22);
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Sombra para mejor visibilidad */
 }
-/*  se utiliza para el texto en la pagina de inicio */
+/*  se utiliza para el texto en la pagina de inicio del barco*/
 .text-overlay2 {
   position: absolute;
   top: 0%;
   left: 45%;
   transform: translate(100%, 100%);
+  color: rgba(10, 4, 4, 0.945);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+/*  se utiliza para el texto en la pagina de inicio del contenedor*/
+.text-overlay4 {
+  position: absolute;
+  top: 0%;
+  right: 90%;
+  transform: translate(100%, 100%);
   color: white;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
+
+
+
+
+
 /*  se utiliza para el texto en la pagina de nosotros */
 .text-overlay3 {
   right: 0; /* Alinear a la derecha */
