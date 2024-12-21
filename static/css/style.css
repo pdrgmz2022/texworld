@@ -107,3 +107,23 @@ footer img {
   color: rgb(5, 131, 22);
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Sombra para mejor visibilidad */
 }
+/*  se utiliza para el texto en la pagina de inicio */
+.text-overlay2 {
+  position: absolute;
+  top: 0%;
+  left: 45%;
+  transform: translate(100%, 100%);
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+/*  se utiliza para el texto en la pagina de nosotros */
+.text-overlay3 {
+  right: 0; /* Alinear a la derecha */
+  top: 20%; /* Centrar verticalmente */
+  transform: translateY(50%); /* Ajustar posición al centro exacto */
+  transform: translateX(50%); /* Ajustar posición al centro exacto */
+  text-align: justify; /* Justificar texto */
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente para contraste */
+  padding: 1rem;
+  border-radius: 0.5rem; /* Esquinas redondeadas */
+}
