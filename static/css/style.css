@@ -84,19 +84,8 @@ footer img {
 }
 
 
-/* 
-.overlay-text {
-  position: absolute;
-  top: 50%;  Centrar verticalmente 
-  left: 50%;  Centrar horizontalmente 
-  transform: translate(-50%, -50%);  Ajustar al centro 
-  color: rgb(8, 8, 8); /* Texto negro 
-  background-color: rgba(86, 190, 250, 0.5); Fondo semitransparente 
-  padding: 10px 20px; /* Espaciado interno 
-  border-radius: 5px; /* Bordes redondeados 
-  text-align: left; 
-}
- */
+
+
 /*  se utiliza para el texto en la pagina de inicio */
 .image-container {
   position: relative;
@@ -107,6 +96,13 @@ footer img {
   color: rgb(5, 131, 22);
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Sombra para mejor visibilidad */
 }
+/*  se utiliza para el las viñetas de ls listas*/
+#listatexto{
+  list-style: none; /* Eliminar las viñetas */
+  padding: 0; /* Opcional: eliminar el relleno por defecto */
+}
+
+
 /*  se utiliza para el texto en la pagina de inicio del barco*/
 .text-overlay2 {
   position: absolute;
