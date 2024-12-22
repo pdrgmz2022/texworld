@@ -86,76 +86,57 @@
         <!----------------------------------------------------fin del header ------------------------------------------>
           
          
-         <!----------------------------------------------------comienzo del carrousel  -------------------------------------->
+         <!----------------------------------------------------comienzo de pagina principal  -------------------------------------->
         <main>
 
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                
-                <div class="carousel-inner mt-0">
 
-                  <div class="carousel-item custom-height active ">
-                    
-                    
-                    <div class="text-overlay" style="top: 35%; right: 40%; color:black;">
-                        <h4>
-                          
-                          <ul id="listatexto">
-                            <li>Gestión aduanera</li> 
+              <!-- Contenedor para la imagen y texto de la primera imagen -->
+              <div class="row position-relative">
+                <!-- Imagen -->
+                <div class="col-12">
+                  <img src="./static/img/comercioHD1.webp" class="img-fluid w-100" alt="Imagen">
+                  <!-- Texto encima (visible en pantallas grandes) -->
+                  <div class="text-overlaycentro d-none d-md-block">
+                    <h5>
+                      <ul id="listatexto fs-3">
+                        <li>Gestión aduanera</li> 
                             <li>Clasificación de productos</li>
                             <li>Tratados de libre comercio</li>
                             <li>Reducción de costos</li>
                             <li>Mayor competitividad</li>
                             <li>Regulaciones internacionales</li>
-
-                          </ul> 
-                         
-                        </h4>
-                      </div> 
-                        
-                    <img src="./static/img/comercioHD1.webp" class="d-block w-100 " alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
+  
+                      </ul>
+                     
+                    </h5>
                   </div>
+                </div>
 
-                  <div class="carousel-item custom-height">
-                    <img src="./static/img/contenedor.png" class="d-block w-100 " alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5></h5>
-                        <p></p>
-                    </div>
-                  </div>
+                <!-- Texto debajo de la imagen principal(visible en pantallas pequeñas) -->
+                <div class="col-12 d-block d-md-none text-center mt-3">
+                  <h5>
+                    <ul id="listatexto">
+                        <li>Gestión aduanera</li> 
+                        <li>Clasificación de productos</li>
+                        <li>Tratados de libre comercio</li>
+                        <li>Reducción de costos</li>
+                        <li>Mayor competitividad</li>
+                        <li>Regulaciones internacionales</li>
 
-                  <div class="carousel-item custom-height">
-                    <img src="./static/img/barco1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5></h5>
-                        <p></p>
-                    </div>
-                  </div>
-                
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+                    </ul>
+                   
+                  </h5>
+                </div>
               </div>
 
-              
+
               <!-- Contenedor para la imagen y texto del barco -->
               <div class="row position-relative">
                 <!-- Imagen -->
                 <div class="col-12">
                   <img src="./static/img/barco33.png" class="img-fluid w-100" alt="Imagen">
                   <!-- Texto encima (visible en pantallas grandes) -->
-                  <div class="text-overlay2 d-none d-md-block">
+                  <div class="text-overlayderecha d-none d-md-block">
                     <h5>
                       <ul id="listatexto">
                         <li>Cotización de precios</li>
@@ -198,7 +179,7 @@
                 <div class="col-12">
                   <img src="./static/img/contenedor22.png" class="img-fluid w-100" alt="Imagen">
                   <!-- Texto encima del contenedor(visible en pantallas grandes) -->
-                  <div class="text-overlay4 d-none d-md-block">
+                  <div class="text-overlayizquierda d-none d-md-block">
                     <h5>
                       <ul id="listatexto">
                         <li>Experiencia comprobada.</li>
