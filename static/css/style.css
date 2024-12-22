@@ -103,8 +103,19 @@ footer img {
 }
 
 
+/*  se utiliza para el texto en la pagina de inicio principal*/
+.text-overlaycentro{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(100%, 100%);
+  color: rgba(10, 4, 4, 0.945);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+
 /*  se utiliza para el texto en la pagina de inicio del barco*/
-.text-overlay2 {
+.text-overlayderecha {
   position: absolute;
   top: 0%;
   left: 45%;
@@ -113,7 +124,7 @@ footer img {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 /*  se utiliza para el texto en la pagina de inicio del contenedor*/
-.text-overlay4 {
+.text-overlayizquierda {
   position: absolute;
   top: 0%;
   right: 90%;
@@ -121,7 +132,6 @@ footer img {
   color: white;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
-
 
 
 
@@ -138,6 +148,7 @@ footer img {
   border-radius: 0.5rem; /* Esquinas redondeadas */
 }
 
+
 .propiedades{
   width: 600px;
   font-size: medium;
@@ -148,4 +159,10 @@ footer img {
 .manuscrita {
   font-family: 'Dancing Script', cursive;
   
+}
+.fondo{
+  background-image: url('../img/fondo4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
